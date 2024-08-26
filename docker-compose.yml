@@ -58,7 +58,7 @@ services:
       - type: bind
         source: ./config.js
         target: /sqtracker/config.js
-      # - ./favicon.png:/sqtracker/public/favicon.png
-      # - ./favicon.ico:/sqtracker/public/favicon.ico
+      # - ./favicon.png:/sqtracker/client/public/favicon.png
+      # - ./favicon.ico:/sqtracker/client/public/favicon.ico
     depends_on:
       - api
